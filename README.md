@@ -13,7 +13,8 @@ We can create a client ID and client secret using its [Google API Console](https
 4. Under Application type, select Web application.
 5. In Authorized redirect URI use http://localhost:3000/auth/google/callback
 6. Press the Create button and copy the generated client ID and client secret
----Note: If Google doesn't support http://localhost:3000, then use http://127.0.0.1:3000---
+
+`Note: If Google doesn't support http://localhost:3000, then use http://127.0.0.1:3000`
 
 ## Install
 
