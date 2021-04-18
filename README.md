@@ -1,7 +1,8 @@
 Passport Google OAuth2 Example
 ==============================
 
-This is an Express 4 application using Google for authentication via OAuth2.
+This is an Express application using Google for authentication via OAuth2 and Local Email and Password authentication.
+Both running simultaneously
 
 
 ## Create a Google client ID and client secret
