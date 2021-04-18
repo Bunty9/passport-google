@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+    <title>Passport JS Email and Google</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <style>
+        body         { padding-top:80px; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="jumbotron text-center">
+        <h1><span class="fa fa-lock"></span>Passport JS Email and Google</h1>
+
+        <p>Login or Register </p>
+
+        <!-- <a href="/api/login" class="btn btn-default"><span class="fa fa-user"></span> Local Login</a>
+        <a href="/api/signup" class="btn btn-default"><span class="fa fa-user"></span> Local Signup</a> -->
+        <!-- <a href="/api/login" class="btn btn-default"><span class="fa fa-user"></span> Logout</a> -->
+        <form action="/api/logout?_method=DELETE" method="POST">
+            <button type="submit">Log Out</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
